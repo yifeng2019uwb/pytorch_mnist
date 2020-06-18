@@ -4,7 +4,8 @@
 
 This project to design and describle a full CI/CD pipeline for a Python application with pytorch mnist component. 
 
-What is CI CD Pipeline?
+**What is CI CD Pipeline?**
+
 A CI/CD pipeline is the practical implementation of DevOps principles. Below is a brief overview of what CI/CD stands for. 
 
 Continuous Integration (CI) means using automation tools to build, test and merge code seamlessly. This is to ensure that code coming from different developers and components is free of errors. Automated tests help spot bugs at the early stage of software development and fix them immediately
@@ -15,5 +16,9 @@ CD also means Continuous Deployment, or the constant and automated production de
 
 <img src="image/CI_CD-process.png" >
 
+**Using GitHub Actions to implement an automated CI/CD pipeline**
 
+GitHub Actions make it is easy to automate build, test and deploy project on any platform, including Linux, maxOS, and Windows. 
+
+Created my workflow file - python-app.yml for continious integration for my python code.
 
