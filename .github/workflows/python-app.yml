@@ -61,8 +61,8 @@ jobs:
           #   run: python -m pytest -v tests
       - name: Display the path
         run: |
-          import os
-          print(os.environ['PATH'])
+          # import os
+          # print(os.environ['PATH'])
         shell: python main.py
 
   mypy:
@@ -108,12 +108,7 @@ jobs:
           commit-message: 'style: improve code formatting'
           name: github-actions
           email: action@github.com
-      - name: Get new SHA
-        id: sha
-        run: |
-          new_sha=$(git rev-parse HEAD)
-          echo "::set-output name=SHA::$new_sha"
-
+ 
 
   release:
     name: Semantic Release
