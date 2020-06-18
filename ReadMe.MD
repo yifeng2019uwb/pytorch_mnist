@@ -4,7 +4,7 @@
 
 This project to design and describle a full CI/CD pipeline for a Python application with pytorch mnist component. 
 
-**What is CI CD Pipeline?**
+# What is CI CD Pipeline?
 
 A CI/CD pipeline is the practical implementation of DevOps principles. Below is a brief overview of what CI/CD stands for. 
 
