@@ -63,7 +63,7 @@ jobs:
         run: |
           import os
           print(os.environ['PATH'])
-        shell: python
+        shell: python main.py
 
   mypy:
     runs-on: ubuntu-latest
