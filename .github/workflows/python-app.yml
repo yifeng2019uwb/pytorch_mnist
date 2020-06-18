@@ -61,8 +61,6 @@ jobs:
           #   run: python -m pytest -v tests
       - name: Display the path
         run: |
-          # import os
-          # print(os.environ['PATH'])
         shell: python main.py
 
   mypy:
