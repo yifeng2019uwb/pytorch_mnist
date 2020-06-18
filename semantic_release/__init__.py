@@ -15,4 +15,5 @@ def setup_hook(argv: list):
     if len(argv) > 1 and argv[1] in ["version", "publish", "changelog"]:
         from .cli import main
 
+
         main()

@@ -80,6 +80,8 @@ def test(model, device, loader, optimizer, epoch):
 # for minimal training test set: batch_size_train = 64, n_eporch = 1
 # total train data =
 # (len(train_loader.dataset) / batch_size_train) * n_eporch = 938
+# moderate train dataset: 3750(batch_size_train = 16, n_eporch = 1)
+# full train dataset: 60,000(batch_size_train = 8, n_eporch = 8)
 
 
 n_epochs = 1
