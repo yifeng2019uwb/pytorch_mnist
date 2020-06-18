@@ -84,6 +84,8 @@ jobs:
 After completing the train and test model, release the code and then train and test the model on a cloud-hosted Kubernetes cluster. On the CD pipeline should also including build, test and devploy jobs. According train and test result from the cloud cluster, We will modify the code and repeat the CI/CD pipeline solution to delivery higher quality code.
 
 
+I suppose to run the code on  cloud-hosted Kubernetes cluster under Docker container. Since I stucked pytest, I only tried to understand how it works.
 
+Thanks for reading my report.
 
 
