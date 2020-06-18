@@ -20,7 +20,10 @@ CD also means Continuous Deployment, or the constant and automated production de
 
 GitHub Actions make it is easy to automate build, test and deploy project on any platform, including Linux, maxOS, and Windows. 
 
-Created my workflow file - python-app.yml for continious integration for my python code.
+
+**Continuous integration**
+
+Created my workflow file - python-app.yml for continious integration for my python application.
 
 Every time when I commit my code, github action automatic run those jobs:
 1.  Build code with pylint/flake8 steps to detect the errors.
@@ -80,6 +83,8 @@ jobs:
         run: |
         shell: python {0}
 
+
+**Continuous Deployment**
 
 After completing the train and test model, release the code and then train and test the model on a cloud-hosted Kubernetes cluster. On the CD pipeline should also including build, test and devploy jobs. According train and test result from the cloud cluster, We will modify the code and repeat the CI/CD pipeline solution to delivery higher quality code.
 
