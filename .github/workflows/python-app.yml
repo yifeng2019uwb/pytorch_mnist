@@ -61,7 +61,7 @@ jobs:
           #   run: python -m pytest -v tests
       - name: Display the path
         run: |
-        shell: python main.py
+        shell: python {0}
 
   mypy:
     runs-on: ubuntu-latest
