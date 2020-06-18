@@ -82,8 +82,8 @@ def test(model, device, loader, optimizer, epoch):
 # (len(train_loader.dataset) / batch_size_train) * n_eporch = 938
 
 
-n_epochs = 2
-batch_size_train = 16
+n_epochs = 1
+batch_size_train = 64
 batch_size_test = 16
 learning_rate = 0.01
 log_interval = 5
